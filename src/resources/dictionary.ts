@@ -3,6 +3,18 @@ import { calcChapterCount } from '@/utils'
 
 // 中国考试
 const chinaExam: DictionaryResource[] = [
+   
+  {
+    id: 'daily_100',
+    name: '我的专属口语100句',
+    description: 'Daily English 100',
+    category: '中国考试',
+    tags: ['我的'],
+    url: '/dicts/daily_100.json',
+    length: 100,
+    language: 'en',
+    languageCategory: 'en',
+  },
   {
     id: 'cet4',
     name: 'CET-4',
